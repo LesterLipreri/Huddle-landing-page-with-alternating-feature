@@ -159,12 +159,26 @@ footer ul li {
   text-decoration: none;
 }
 
-footer .icons {
-  padding: 0;
-}
-
 footer p {
   text-align: right;
+}
+
+.logo-footer {
+  margin: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.icon-flex {
+  display: flex;
+}
+
+li figure {
+  padding-right: 20px;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -188,6 +202,18 @@ footer p {
 
   .reverse-mobile {
     flex-direction: column-reverse;
+  }
+
+  footer {
+    text-align: left;
+  }
+
+  .logo-footer {
+    margin: 20px 0;
+  }
+
+  figure {
+    margin-bottom: 10px;
   }
 
   footer ul {
