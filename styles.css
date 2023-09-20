@@ -15,6 +15,7 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  height: 100vh;
 }
 
 .container {
@@ -23,6 +24,8 @@ body {
   width: 1000px;
   margin: 0 auto;
 }
+
+/* Me esta faltando una regla basica sobre height i am prettry sure */
 
 .flex {
   display: flex;
